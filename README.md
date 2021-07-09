@@ -34,6 +34,10 @@ $ conftest verify --trace --no-color | grep Note | sed 's/^.*Note "\(.*\)"$/\1/'
 FAIL test_deny_aws_cloudwatch_log_grop_retention_in_days (1): retention_in_days should be greater than 0, wanted {\"aws_cloudwatch_log_group.main: retention_in_days should be set and greater than 0\"}, got set()
 ```
 
+## Blog
+
+* Japanese: https://techblog.szksh.cloud/opa-table-driven-test/
+
 ## LICENSE
 
 [MIT](LICENSE)
